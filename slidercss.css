@@ -1,0 +1,19 @@
+.titel-slide,.pagin7ation a,a.prev,a.next,.nav-tab{background-color:#444}
+.mr{border-right:3px solid #5490cc}
+.ward{border:1px solid #5490cc}
+.site_stats_bar li span{border-bottom:2px solid #5490cc}
+.image_carousel{padding-right:3px;position:relative}
+.image_carousel a{display:block;float:left}
+.image_carousel img{border:1px solid #ccc;background-color:#fff;padding:6px;margin:5px;display:block;float:left}
+.image_carousel img:hover{border:1px solid #DDD;-moz-box-shadow:0 1px 5px #555;-webkit-box-shadow:0 1px 5px #555;box-shadow:0 1px 5px #555}
+.image_carousel:hover > a.prev{overflow:visible;opacity:1;left:20px}
+.image_carousel:hover > a.next{overflow:visible;opacity:1;right:20px}
+a.prev,a.next{overflow:hidden;opacity:0;cursor:pointer;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;transition:all .5s ease}
+a.prev{background-image:url(http://store1.up-00.com/2017-01/1484068956722.png);background-repeat:no-repeat;background-color:#D34A21;width:42px;height:40px;display:block;position:absolute;top:60px;left:-32px;border-radius:20px}
+a.next{background-image:url(http://store1.up-00.com/2017-01/1484068956661.png);background-repeat:no-repeat;background-color:#D34A21;width:40px;height:40px;display:block;position:absolute;top:60px;right:-32px;border-radius:20px}
+a.prev:hover,a.next:hover{opacity:.7!important}
+a.prev span,a.next span{display:none}
+.pagin7ation{text-align:center}
+.pagin7ation a{width:20px;height:20px;margin:0 5px 0 0;display:inline-block;float:none;border-radius:20px}
+.pagin7ation a.selected{background-position:-25px -300px;cursor:default;background-color:#D34A21}
+.pagin7ation a span{display:none}
